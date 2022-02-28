@@ -1,0 +1,72 @@
+
+.love{
+    position: relative;
+    padding: 50px;
+}
+.box{
+    border-radius: 10%;
+    overflow: hidden;
+
+}
+.box img{
+    width: 100%;
+}
+.box1{
+    overflow: hidden;
+    border-radius:30% 5% 30%  5%;
+    width: 500px;
+}
+.box1-1{
+    border-radius:30% 5% 30%  5%;
+    width: 500px;
+    height: 666px;
+    background-color:antiquewhite;
+    position:absolute;
+    z-index: -10;
+    margin-top: 750px;
+    margin-left: 500px;
+}
+.box1-2{
+    border-radius:30% 5% 30%  5%;
+    width: 500px;
+    height: 620px;
+    background-color:azure;
+    position:absolute;
+    z-index: -20;
+    margin-top: 900px;
+    margin-left: 550px;
+}
+.box1 img{
+    width: 100%;
+
+}
+.polution{
+    /* background-color: aliceblue ; */
+}
+.title span{
+    font-family: 'The Nautigal', cursive;  
+    font-size:100px;
+    font-style: italic;
+    font-weight: 100;
+}
+.box2{
+    overflow: hidden;
+    padding: 20%;
+    background-color: aliceblue;
+}
+.box2 img{
+    width: 100%;
+}
+.contract li{
+    list-style: none;
+}
+.contract{
+    /* background-color: aliceblue; */
+}
+.copyright{
+    background-color: aliceblue;
+    margin: 50px 0;
+}
+.title:hover{
+    color: brown;
+}

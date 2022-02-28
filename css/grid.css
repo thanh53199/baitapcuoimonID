@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=The+Nautigal&display=swap');
+*{ 
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0;
+ }
+body{ font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+} 
+h1,h2,h3,h4,h5,h6{ 
+    font-weight: 900; 
+    color: #272D4E;
+}
+.bg-sucess{
+    background-color: #70C217;
+}
+.bg-primary{
+    background-color: #7854F7;
+}
+.text-priary{
+    color: #7854F7  ;
+}
+h1{
+    font-size: 80px;
+    line-height: 95px;
+}
+h2{
+    font-size: 65px;
+    line-height: 70px;
+} 
+h3{
+    font-size: 56px;
+    line-height: 70px;
+}
+.color-white{
+    color: white;
+}
+.btn{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.btn-sm-primary{
+    padding: 12px 16px;
+    background-color: #2ecfc2;
+    border-radius: 5px;
+}
+.btn-lg-primary{
+    padding: 24px 60px;
+    background-color: #7854F7;
+    border-radius: 60px;
+}
+.btn-lg-success{
+    padding: 24px 32px;
+}
+a{
+    color:white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 22px;
+}
+.simple-link{
+    color: #272D4E;
+    font-size: 18px;
+    font-weight: 500;
+}
+.container{ width: 1480px; margin: 0 auto;
+    /* background-color: aliceblue; */
+} 
+.row{ display: flex; flex-wrap: wrap; } 
+.row>[class*="col-"]{ padding: 12px; }
+
+.col-1{ width: 8.33%; } 
+.col-2{ width: 16.66%; } 
+.col-3{ width: 25%; } 
+.col-4{ width: 33.33%; } 
+.col-5{ width: 41.66%; } 
+.col-6{ width: 50%; } 
+.col-7{ width: 58.33%; } 
+.col-8{ width: 66.66%; } 
+.col-9{ width: 75%; } 
+.col-10{ width: 83.33%; } 
+.col-11{ width: 91.66%; } 
+.col-12{ width: 100%; }
+
+.align-item-bottom{ align-items: flex-end; } 
+.align-item-top{ align-items: flex-start; }
+.align-item-center{ align-items: center; }
+
+.align-content-bottom{ align-content: flex-end; } 
+.align-content-top{ align-content: flex-start; }
+.align-content-center{ align-content: center; }
+
+.align-self-bottom{ align-self: flex-end; } 
+.align-self-top{ align-self: flex-start; }
+.align-self-center{ align-self : center; }
+
+.justify-start{
+    justify-content: flex-start;
+}
+.justify-ceter{
+    justify-content:center;
+}
+.justify-end{
+    justify-content: flex-end;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-around{
+    justify-content: space-around;
+} 
+.text-center{ 
+    text-align: center; 
+} 
+.text-right{
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
+.mx-4{
+    margin: 0 32px;
+}
+.header{
+    padding: 32px;
+    
+}
+.margin-50{
+    margin:50px 50px 50px 0;
+}
+.margin-20{
+    margin-left:20px;
+}
